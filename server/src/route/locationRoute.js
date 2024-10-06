@@ -8,4 +8,6 @@ route.post('/locationByaddress',locationControllerByAddress);
 route.post('/locationByCordinates',locationControllerByCordinates);
 route.post('/nearBy',locationControllerNearBy);
 route.post('/createRestaurant',restaurantController)
-module.exports= route
+module.exports= route;
+
+
